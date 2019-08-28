@@ -1,8 +1,8 @@
-const Sequelize = require("sequelize");
-const sequelize = require("../clients/sequelize");
+const Sequelize = require('sequelize')
+const sequelize = require('../clients/sequelize')
 
 const Post = sequelize.define(
-  "post",
+  'post',
   {
     id: {
       type: Sequelize.INTEGER,
@@ -24,6 +24,6 @@ const Post = sequelize.define(
     }
   },
   {}
-);
+)
 
-module.exports = Post;
+module.exports = Post

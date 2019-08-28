@@ -1,59 +1,52 @@
-const https = require("https");
-const http = require("http");
+const https = require('https')
+const http = require('http')
 
-function safeJSONParse(data) {
-  try {
-    return JSON.parse(data);
-  } catch (e) {
-    return data;
-  }
-}
 // rejects on >= HTTP 300
 async function requestPromise(url, options = {}, body) {
-  const isHttps = url.startsWith("https:") || options.protocol === "https:";
-  const httpLib = isHttps ? https : http;
+  const isHttps = url.startsWith('https:') || options.protocol === 'https:'
+  const httpLib = isHttps ? https : http
   return new Promise((resolve, reject) => {
-    let data;
+    let data
     const req = httpLib.request(url, options, res => {
-      if (res.headers["content-type"].includes("image")) {
-        res.setEncoding("binary");
+      if (res.headers['content-type'].includes('image')) {
+        res.setEncoding('binary')
       }
-      res.on("data", chunk => {
-        data === undefined ? (data = chunk) : (data = data + chunk);
-      });
-      res.on("end", () =>
+      res.on('data', chunk => {
+        data === undefined ? (data = chunk) : (data = data + chunk)
+      })
+      res.on('end', () =>
         res.statusCode < 300 ? resolve(data) : reject({ res, data })
-      );
-    });
+      )
+    })
     if (body) {
-      req.write(body);
+      req.write(body)
     }
-    req.on("error", error => reject({ error, res, data }));
-    req.end();
-  });
+    req.on('error', error => reject({ error, res, data }))
+    req.end()
+  })
 }
 
 function post(url, body, options = {}) {
   return requestPromise(
     url,
     {
-      method: "POST",
+      method: 'POST',
       ...options,
-      headers: { "content-type": "application/json", ...options.headers }
+      headers: { 'content-type': 'application/json', ...options.headers }
     },
     JSON.stringify(body)
-  );
+  )
 }
 
 function postRaw(url, body, options = {}) {
   return requestPromise(
     url,
     {
-      method: "POST",
+      method: 'POST',
       ...options
     },
     body
-  );
+  )
 }
 
-module.exports = { get: requestPromise, post, postRaw };
+module.exports = { get: requestPromise, post, postRaw }

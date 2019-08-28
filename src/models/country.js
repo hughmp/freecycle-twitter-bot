@@ -1,8 +1,8 @@
-const Sequelize = require("sequelize");
-const sequelize = require("../clients/sequelize");
+const Sequelize = require('sequelize')
+const sequelize = require('../clients/sequelize')
 
 const Country = sequelize.define(
-  "country",
+  'country',
   {
     url: {
       type: Sequelize.STRING,
@@ -15,6 +15,6 @@ const Country = sequelize.define(
     }
   },
   {}
-);
+)
 
-module.exports = Country;
+module.exports = Country

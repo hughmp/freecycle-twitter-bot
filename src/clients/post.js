@@ -1,21 +1,20 @@
-const db = require("./db");
-const http = require("./http");
-const { group: Group } = require("../models");
+const db = require('./db')
+const http = require('./http')
 
 function getOfferPostsNotTweeted() {
-  return db.findAll("post", {
-    where: { isTweeted: false, json: { type: "offer" } }
-  });
+  return db.findAll('post', {
+    where: { isTweeted: false, json: { type: 'offer' } }
+  })
 }
 
 async function getPhoto(post = {}) {
   try {
-    const { imageUrl } = post;
-    const image = await http.get(imageUrl);
-    return image;
+    const { imageUrl } = post
+    const image = await http.get(imageUrl)
+    return image
   } catch (e) {
-    return false;
+    return false
   }
 }
 
-module.exports = { getOfferPostsNotTweeted, getPhoto };
+module.exports = { getOfferPostsNotTweeted, getPhoto }

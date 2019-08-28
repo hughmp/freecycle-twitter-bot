@@ -1,7 +1,7 @@
-const Sequelize = require("sequelize");
-const config = require("../config");
+const Sequelize = require('sequelize')
+const config = require('../config')
 
-const { username, password, database, host, port } = config.postgres;
+const { username, password, database, host, port } = config.postgres
 
 const options = {
   username,
@@ -9,10 +9,10 @@ const options = {
   database,
   host,
   port,
-  dialect: "postgres",
+  dialect: 'postgres',
   logging: false
-};
+}
 
-const sequelize = new Sequelize(options);
+const sequelize = new Sequelize(options)
 
-module.exports = sequelize;
+module.exports = sequelize

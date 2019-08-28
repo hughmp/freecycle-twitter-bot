@@ -1,8 +1,8 @@
-const Sequelize = require("sequelize");
-const sequelize = require("../clients/sequelize");
+const Sequelize = require('sequelize')
+const sequelize = require('../clients/sequelize')
 
 const Group = sequelize.define(
-  "group",
+  'group',
   {
     url: {
       type: Sequelize.STRING,
@@ -23,6 +23,6 @@ const Group = sequelize.define(
     }
   },
   {}
-);
+)
 
-module.exports = Group;
+module.exports = Group

@@ -1,7 +1,7 @@
-const Sequelize = require("sequelize");
-const sequelize = require("../clients/sequelize");
+const Sequelize = require('sequelize')
+const sequelize = require('../clients/sequelize')
 
-const ScrapeConfig = sequelize.define("scrape_config", {
+const ScrapeConfig = sequelize.define('scrape_config', {
   group: {
     type: Sequelize.STRING,
     primaryKey: true,
@@ -11,6 +11,6 @@ const ScrapeConfig = sequelize.define("scrape_config", {
     type: Sequelize.INTEGER,
     allowNull: true
   }
-});
+})
 
-module.exports = ScrapeConfig;
+module.exports = ScrapeConfig
