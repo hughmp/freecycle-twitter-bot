@@ -1,0 +1,19 @@
+FROM node:12.8.0-alpine
+
+WORKDIR /usr/src/app
+
+ADD ./package.json /usr/src/app
+ADD ./package-lock.json /usr/src/app
+RUN npm i
+
+ADD ./index.js /usr/src/app
+ADD ./src/ /usr/src/app
+
+ARG POSTGRES_PASSWORD
+ARG TWITTER_CONSUMER_SECRET
+ARG TWITTER_ACCESS_SECRET
+ENV POSTGRES_PASSWORD=$POSTGRES_PASSWORD
+ENV TWITTER_CONSUMER_SECRET=$TWITTER_CONSUMER_SECRET
+ENV TWITTER_ACCESS_SECRET=$TWITTER_ACCESS_SECRET
+
+CMD ["npm", "start"]
