@@ -1,0 +1,356 @@
+<!DOCTYPE html> 
+<html lang='i_default'>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="The Freecycle Network is a grassroots and entirely nonprofit movement of people who are giving (and getting) stuff for free in their own towns. It's all about reuse and keeping good stuff out of landfills.">
+    <title>The Freecycle Network</title>
+    <link rel="shortcut icon" href="//static.freecycle.org/images/favicon.ico" />
+    <link rel="icon" type="image/png" href="//static.freecycle.org/images/favicon.png" />
+    <link rel="apple-touch-icon" href="//static.freecycle.org/images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="//static.freecycle.org/images/apple-ipad-icon.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="//static.freecycle.org/images/apple-touch-icon-retina.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="//static.freecycle.org/images/apple-ipad-icon-retina.png" />
+    <link rel='stylesheet' type='text/css' href='//static.freecycle.org/css/freecycle.css' />
+    <script type='text/javascript' src='//static.freecycle.org/js/freecycle.js'></script> <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12614335-1', 'auto');
+  ga('set', 'allowAdFeatures', false);
+ ga('send', 'pageview');
+
+</script>
+
+      <!-- Prebid Custom Config Section START -->
+  <!-- Make sure this is inserted before your GPT tag -->
+  <script> 
+    var PREBID_TIMEOUT = 1200;
+
+    // Add more bidders like Oath, etc later...
+    var adUnits =  [{
+		"code": "div-gpt-ad-8054601-1",
+		"bids": [
+		   {
+			"bidder": "openx",
+			"params": {
+                		"unit": "539508013",
+                		"delDomain":  "freecycle-d.openx.net"
+          		}
+		   },
+		   {
+			"bidder": "onedisplay",
+			"params": {
+                		"placement": "4741552",
+                		"network":  "11209.1"
+          		}
+		   },
+		   {
+			"bidder": "sovrn",
+			"params": {
+				"tagid": 533972
+			}
+		   }
+		],
+		"sizes": [
+			[300, 250]
+		]
+	}, {
+		"code": "div-gpt-ad-8054602-1",
+		"bids": [
+		   {
+			"bidder": "openx",
+			"params": {
+                		"unit": "539508016",
+                		"delDomain":  "freecycle-d.openx.net"
+          		}
+		   },
+		   {
+			"bidder": "onedisplay",
+			"params": {
+                		"placement": "4741554",
+                		"network":  "11209.1"
+          		}
+		   },
+		   {
+			"bidder": "sovrn",
+			"params": {
+				"tagid": 533973
+			}
+		   }
+		],
+		"sizes": [
+			[300, 250]
+		]
+	}, {
+		"code": "div-gpt-ad-8054603-1",
+		"bids": [
+		   {
+			"bidder": "openx",
+			"params": {
+                		"unit": "539508017",
+                		"delDomain":  "freecycle-d.openx.net"
+          		}
+		   },
+		   {
+			"bidder": "onedisplay",
+			"params": {
+                		"placement": "4741553",
+                		"network":  "11209.1"
+          		}
+		   },
+		   {
+			"bidder": "sovrn",
+			"params": {
+				"tagid": 533974
+			}
+		   }
+		],
+		"sizes": [
+			[160, 600]
+		]
+	}
+    ];
+
+    console.log("prebid configured.");
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+
+  </script>
+  <!-- Prebid Config Section END -->
+  
+  <!-- Prebid Boilerplate Section START. No Need to Edit. -->
+  <script type="text/javascript" src="//static.freecycle.org/js/prebid_tfn.js" async></script>
+  <script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push(function() {
+        googletag.pubads().disableInitialLoad();
+    });
+
+    pbjs.que.push(function() {
+        pbjs.addAdUnits(adUnits);
+	pbjs.enableSendAllBids();
+	pbjs.enableAnalytics([
+	   {
+        	provider: 'ga',
+        	options: {
+            		enableDistribution: false
+        	}
+    	   }, 
+	   {
+        	provider: 'pubwise',
+        	options: {
+            		site: 'd86b34cf-c25f-4163-a19a-4184064fc1fe',
+            		endpoint:'https://api.pubwise.io/api/v4/event/add/'
+            	}
+           } 
+	]);
+        pbjs.requestBids({
+            bidsBackHandler: sendAdserverRequest
+        });
+    });
+
+    function sendAdserverRequest() {
+        if (pbjs.adserverRequestSent) return;
+        pbjs.adserverRequestSent = true;
+        googletag.cmd.push(function() {
+            pbjs.que.push(function() {
+                pbjs.setTargetingForGPTAsync();
+                googletag.pubads().refresh();
+            });
+        });
+    }
+
+    setTimeout(function() {
+        sendAdserverRequest();
+    }, PREBID_TIMEOUT);
+
+  </script>
+  <!-- Prebid Boilerplate Section END -->
+
+  <script>
+    (function () {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+  </script>
+
+  <script>
+//***************  define our actual TFN ad slots.
+googletag.cmd.push(function() {
+	googletag.defineSlot('/1053204/newBottomLeft', [
+		[300, 250]
+	], 'div-gpt-ad-8054601-1').addService(googletag.pubads());
+	googletag.defineSlot('/1053204/newBottomRight', [
+		[300, 250]
+	], 'div-gpt-ad-8054602-1').addService(googletag.pubads());
+	googletag.defineSlot('/1053204/newRightTower', [
+		[160, 600]
+	], 'div-gpt-ad-8054603-1').addService(googletag.pubads());
+
+	googletag.pubads().enableSingleRequest();
+	googletag.enableServices()
+});
+  </script>
+
+<!-- Sovrn OneTag code. outside of DFP and header bidding... -->
+<script src="//get.s-onetag.com/31b96d5d-a076-42df-a1ab-156f616f8bfe/tag.min.js" async defer></script>
+      <div id="fb-root"></div>
+<script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/i_default/sdk.js#xfbml=1&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+ </script>
+
+  </head>
+
+<body>  <nav id="skip_nav_menu"><a href='#content'>Skip navigation menu</a><hr></nav>
+
+<nav id="main_menu"> <a href='https://www.freecycle.org'  class='menu_header ' title="Home">Home</a> <a href='https://www.freecycle.org/browse/'  class='menu_header ' title="Browse Groups">Browse Groups</a> <a href='http://faq.freecycle.org/' id='mmenu_faq'  class='menu_header ' title="FAQ">FAQ</a> <a href='https://www.freecycle.org/about/' id='mmenu_about'  class='menu_header ' title="About Freecycle&trade;">About Freecycle&trade;</a> <a href='https://www.freecycle.org/donate'  class='menu_header menu_header_2' title="Donate">Donate</a> <a href='https://www.freecycle.org/about/sponsors'  class='menu_header menu_header_2' title="Sponsors">Sponsors</a>  <a href='https://my.freecycle.org/'  class='menu_header ' title="Log in/Sign up">Log in/Sign up</a>  </nav>
+<nav id='dyn_myf'>
+  <a href='http://my.freecycle.org/home/info' class='menu_item' title="My Info">My Info</a>
+  <a href='http://my.freecycle.org/home/groups' class='menu_item' title="My Groups">My Groups</a>
+  <a href='http://my.freecycle.org/home/posts' class='menu_item' title="My Posts">My Posts</a>
+</nav>
+<nav id='dyn_about'>
+  <a href="http://newswire.freecycle.org" class='menu_item' title="Newswire">Newswire</a>
+  <a href="//www.freecycle.org/about/background" class='menu_item' title="History">History</a>
+  <a href="//www.freecycle.org/about/video" class='menu_item' title="Instructional Video">Instructional Video</a>
+  <a href="//www.freecycle.org/about/promovideo" class='menu_item' title="Promo Video - Lamp">Promo Video - Lamp</a>
+  <a href="//www.freecycle.org/about/missionstatement" class='menu_item' title="Mission Statement">Mission Statement</a>
+  <a href="//www.freecycle.org/about/pressroom" class='menu_item' title="Press Room">Press Room</a>
+  <a href="//www.freecycle.org/about/sponsors" class='menu_item' title="Sponsors">Sponsors</a>
+  <a href="//www.freecycle.org/about/funds" class='menu_item' title="Sources and Use of Funds">Sources and Use of Funds</a>
+  <a href="//www.freecycle.org/about/volunteering" class='menu_item' title="Volunteering">Volunteering</a>
+  <a href="http://wiki.freecycle.org/Leadership" class='menu_item' title="Leadership">Leadership</a>
+  <a href="//www.freecycle.org/about/board" class='menu_item' title="Board">Board</a>
+  <a href="//www.freecycle.org/about/privacy" class='menu_item' title="Privacy">Privacy</a>
+  <a href="//www.freecycle.org/tos" class='menu_item' title="Terms of Service">Terms of Service</a>
+  <a href="//www.freecycle.org/about/disclaimer" class='menu_item' title="Disclaimer">Disclaimer</a>
+  <a href="//www.freecycle.org/about/links" class='menu_item' title="Links we like">Links we like</a>
+</nav>
+<nav id='dyn_faq'>
+ <a href="http://wiki.freecycle.org/MemberFAQ" class="menu_item" title="Member FAQ">Member FAQ</a>
+ <a href="http://wiki.freecycle.org/Moderator_Manual:Main_Page" class="menu_item" title="Moderator Manual">Moderator Manual</a>
+</nav>   <!-- only show this stuff if you're logged in -->  <style>
+#blocker_message {
+       
+        border: 2px solid black;
+        border-radius: 10px;
+        display: none;
+        align-self: center;
+        text-align: center;
+	font-size: .8em;
+        margin-top: 5px;
+        padding: 5px 80px 5px 80px;
+        background-color: #eee;
+}
+</style>
+<div id="blocker_message">Please consider turning off your ad-blocking software for this site, and/or making a <a href="//www.freecycle.org/donate">donation</a>. As a charitable nonprofit we rely on this income to keep this site running. <br>Big thank-you hug!</div>  <!-- fundraiser box goes here if we're doing it -->         <header id="main_logo" class="boxCenter">
+    <img src="//static.freecycle.org/images/freecycle_logo.jpg"
+        alt="logo of The Freecycle Network" title="The Freecycle Network" height="100" width="213" />
+    <p id='tagline'>changing the world<br />one gift at a time&trade;</p>
+</header>  <section id="content"> <style>
+#country_column_3 {
+        xposition: relative;
+        xtop:    0px;
+
+}
+</style>
+<section>
+<header><h1>The Freecycle Network is active in these countries:</h1></header>
+
+<div>
+
+<p class='offscreen'>
+	<a href='#group_search_box'>Skip list of countries</a>
+</p>
+
+<section id='active_country_list'> <section id='country_column_1'><p class='offscreen'>Countries from Albania to Georgia <a href='#country_column_2'>skip to next block</a></p><ul> <li style='list-style-image: url(//static.freecycle.org/images/flags/AL.png);'><a href='https://www.freecycle.org/browse/AL'>Albania</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/DZ.png);'><a href='https://www.freecycle.org/browse/DZ'>ALGERIA</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/AD.png);'><a href='https://www.freecycle.org/browse/AD'>Andorra</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/AI.png);'><a href='https://www.freecycle.org/browse/AI'>Anguilla</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/AG.png);'><a href='https://www.freecycle.org/browse/AG'>Antigua and Barbuda</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/AR.png);'><a href='https://www.freecycle.org/browse/AR'>Argentina</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/AW.png);'><a href='https://www.freecycle.org/browse/AW'>Aruba</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/AU.png);'><a href='https://www.freecycle.org/browse/AU'>Australia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/AT.png);'><a href='https://www.freecycle.org/browse/AT'>Austria</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/BS.png);'><a href='https://www.freecycle.org/browse/BS'>Bahamas</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/BH.png);'><a href='https://www.freecycle.org/browse/BH'>Bahrain</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/BD.png);'><a href='https://www.freecycle.org/browse/BD'>Bangladesh</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/BB.png);'><a href='https://www.freecycle.org/browse/BB'>Barbados</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/BE.png);'><a href='https://www.freecycle.org/browse/BE'>Belgium</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/BZ.png);'><a href='https://www.freecycle.org/browse/BZ'>BELIZE</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/BM.png);'><a href='https://www.freecycle.org/browse/BM'>Bermuda</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/BO.png);'><a href='https://www.freecycle.org/browse/BO'>Bolivia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/BA.png);'><a href='https://www.freecycle.org/browse/BA'>Bosnia and Herzegovina</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/BW.png);'><a href='https://www.freecycle.org/browse/BW'>Botswana</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/BR.png);'><a href='https://www.freecycle.org/browse/BR'>Brazil</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/VG.png);'><a href='https://www.freecycle.org/browse/VG'>British Virgin Islands</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/BG.png);'><a href='https://www.freecycle.org/browse/BG'>Bulgaria</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/BF.png);'><a href='https://www.freecycle.org/browse/BF'>Burkina Faso</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/CM.png);'><a href='https://www.freecycle.org/browse/CM'>Cameroon</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/CA.png);'><a href='https://www.freecycle.org/browse/CA'>Canada</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/KY.png);'><a href='https://www.freecycle.org/browse/KY'>Cayman Islands</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/CL.png);'><a href='https://www.freecycle.org/browse/CL'>Chile</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/CN.png);'><a href='https://www.freecycle.org/browse/CN'>China</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/CO.png);'><a href='https://www.freecycle.org/browse/CO'>Colombia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/CR.png);'><a href='https://www.freecycle.org/browse/CR'>Costa Rica</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/HR.png);'><a href='https://www.freecycle.org/browse/HR'>CROATIA</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/CU.png);'><a href='https://www.freecycle.org/browse/CU'>Cuba</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/CY.png);'><a href='https://www.freecycle.org/browse/CY'>Cyprus</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/CZ.png);'><a href='https://www.freecycle.org/browse/CZ'>Czech Republic</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/DK.png);'><a href='https://www.freecycle.org/browse/DK'>Denmark</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/DM.png);'><a href='https://www.freecycle.org/browse/DM'>Dominica</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/DO.png);'><a href='https://www.freecycle.org/browse/DO'>Dominican Republic</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/EC.png);'><a href='https://www.freecycle.org/browse/EC'>Ecuador</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/EG.png);'><a href='https://www.freecycle.org/browse/EG'>Egypt</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/SV.png);'><a href='https://www.freecycle.org/browse/SV'>El Salvador</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/EE.png);'><a href='https://www.freecycle.org/browse/EE'>Estonia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/ET.png);'><a href='https://www.freecycle.org/browse/ET'>ETHIOPIA</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/FJ.png);'><a href='https://www.freecycle.org/browse/FJ'>Fiji</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/FI.png);'><a href='https://www.freecycle.org/browse/FI'>Finland</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/FR.png);'><a href='https://www.freecycle.org/browse/FR'>France</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/GE.png);'><a href='https://www.freecycle.org/browse/GE'>Georgia</a></li> </ul></section><section id='country_column_2'><p class='offscreen'>Countries from Germany to Panama <a href='#country_column_3'>skip to next block</a></p><ul> <li style='list-style-image: url(//static.freecycle.org/images/flags/DE.png);'><a href='https://www.freecycle.org/browse/DE'>Germany</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/GH.png);'><a href='https://www.freecycle.org/browse/GH'>Ghana</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/GI.png);'><a href='https://www.freecycle.org/browse/GI'>Gibraltar</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/GR.png);'><a href='https://www.freecycle.org/browse/GR'>Greece</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/GD.png);'><a href='https://www.freecycle.org/browse/GD'>Grenada</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/GU.png);'><a href='https://www.freecycle.org/browse/GU'>Guam</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/HT.png);'><a href='https://www.freecycle.org/browse/HT'>Haiti</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/HN.png);'><a href='https://www.freecycle.org/browse/HN'>HONDURAS</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/HU.png);'><a href='https://www.freecycle.org/browse/HU'>Hungary</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/IS.png);'><a href='https://www.freecycle.org/browse/IS'>Iceland</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/IN.png);'><a href='https://www.freecycle.org/browse/IN'>India</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/ID.png);'><a href='https://www.freecycle.org/browse/ID'>Indonesia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/IR.png);'><a href='https://www.freecycle.org/browse/IR'>Iran, Islamic Republic of</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/IE.png);'><a href='https://www.freecycle.org/browse/IE'>Ireland</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/IL.png);'><a href='https://www.freecycle.org/browse/IL'>Israel</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/IT.png);'><a href='https://www.freecycle.org/browse/IT'>Italy</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/JM.png);'><a href='https://www.freecycle.org/browse/JM'>Jamaica</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/JP.png);'><a href='https://www.freecycle.org/browse/JP'>Japan</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/KZ.png);'><a href='https://www.freecycle.org/browse/KZ'>KAZAKHSTAN</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/KE.png);'><a href='https://www.freecycle.org/browse/KE'>Kenya</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/KR.png);'><a href='https://www.freecycle.org/browse/KR'>Korea, Republic of</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/KW.png);'><a href='https://www.freecycle.org/browse/KW'>Kuwait</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/LV.png);'><a href='https://www.freecycle.org/browse/LV'>Latvia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/LB.png);'><a href='https://www.freecycle.org/browse/LB'>Lebanon</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/LR.png);'><a href='https://www.freecycle.org/browse/LR'>LIBERIA</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/LT.png);'><a href='https://www.freecycle.org/browse/LT'>Lithuania</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/LU.png);'><a href='https://www.freecycle.org/browse/LU'>LUXEMBOURG</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/MY.png);'><a href='https://www.freecycle.org/browse/MY'>Malaysia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/MV.png);'><a href='https://www.freecycle.org/browse/MV'>Maldives</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/MT.png);'><a href='https://www.freecycle.org/browse/MT'>Malta</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/MU.png);'><a href='https://www.freecycle.org/browse/MU'>MAURITIUS</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/MX.png);'><a href='https://www.freecycle.org/browse/MX'>Mexico</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/MS.png);'><a href='https://www.freecycle.org/browse/MS'>Monserrat</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/MA.png);'><a href='https://www.freecycle.org/browse/MA'>Morocco</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/NA.png);'><a href='https://www.freecycle.org/browse/NA'>Namibia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/NP.png);'><a href='https://www.freecycle.org/browse/NP'>Nepal</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/NL.png);'><a href='https://www.freecycle.org/browse/NL'>Netherlands</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/AN.png);'><a href='https://www.freecycle.org/browse/AN'>Netherlands Antilles</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/NZ.png);'><a href='https://www.freecycle.org/browse/NZ'>New Zealand</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/NG.png);'><a href='https://www.freecycle.org/browse/NG'>Nigeria</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/NO.png);'><a href='https://www.freecycle.org/browse/NO'>Norway</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/OM.png);'><a href='https://www.freecycle.org/browse/OM'>Oman</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/ZZ.png);'><a href='https://www.freecycle.org/browse/ZZ'>Other</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/PK.png);'><a href='https://www.freecycle.org/browse/PK'>Pakistan</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/PW.png);'><a href='https://www.freecycle.org/browse/PW'>Palau</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/PS.png);'><a href='https://www.freecycle.org/browse/PS'>Palestinian Authority</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/PA.png);'><a href='https://www.freecycle.org/browse/PA'>Panama</a></li> </ul></section><section id='country_column_3'><p class='offscreen'>Countries from PARAGUAY to Zimbabwe <a href='#country_column_4'>skip to next block</a></p><ul> <li style='list-style-image: url(//static.freecycle.org/images/flags/PY.png);'><a href='https://www.freecycle.org/browse/PY'>PARAGUAY</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/PE.png);'><a href='https://www.freecycle.org/browse/PE'>Peru</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/PH.png);'><a href='https://www.freecycle.org/browse/PH'>Philippines</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/PL.png);'><a href='https://www.freecycle.org/browse/PL'>Poland</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/PT.png);'><a href='https://www.freecycle.org/browse/PT'>Portugal</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/PR.png);'><a href='https://www.freecycle.org/browse/PR'>Puerto Rico</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/QA.png);'><a href='https://www.freecycle.org/browse/QA'>Qatar</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/MD.png);'><a href='https://www.freecycle.org/browse/MD'>Republic of Moldova</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/RO.png);'><a href='https://www.freecycle.org/browse/RO'>Romania</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/RU.png);'><a href='https://www.freecycle.org/browse/RU'>Russian Federation</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/LC.png);'><a href='https://www.freecycle.org/browse/LC'>Saint Lucia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/VC.png);'><a href='https://www.freecycle.org/browse/VC'>Saint Vincent and the Grenadines</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/SA.png);'><a href='https://www.freecycle.org/browse/SA'>Saudi Arabia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/RS.png);'><a href='https://www.freecycle.org/browse/RS'>Serbia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/SG.png);'><a href='https://www.freecycle.org/browse/SG'>Singapore</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/SK.png);'><a href='https://www.freecycle.org/browse/SK'>Slovakia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/SI.png);'><a href='https://www.freecycle.org/browse/SI'>Slovenia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/ZA.png);'><a href='https://www.freecycle.org/browse/ZA'>South Africa</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/ES.png);'><a href='https://www.freecycle.org/browse/ES'>Spain</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/LK.png);'><a href='https://www.freecycle.org/browse/LK'>Sri Lanka</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/KN.png);'><a href='https://www.freecycle.org/browse/KN'>St. Kitts and Nevis</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/SD.png);'><a href='https://www.freecycle.org/browse/SD'>Sudan</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/SE.png);'><a href='https://www.freecycle.org/browse/SE'>Sweden</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/CH.png);'><a href='https://www.freecycle.org/browse/CH'>Switzerland</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/SY.png);'><a href='https://www.freecycle.org/browse/SY'>Syria</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/TW.png);'><a href='https://www.freecycle.org/browse/TW'>Taiwan</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/TZ.png);'><a href='https://www.freecycle.org/browse/TZ'>Tanzania, United Republic of</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/TH.png);'><a href='https://www.freecycle.org/browse/TH'>Thailand</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/TT.png);'><a href='https://www.freecycle.org/browse/TT'>Trinidad and Tobago</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/TN.png);'><a href='https://www.freecycle.org/browse/TN'>Tunisia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/TR.png);'><a href='https://www.freecycle.org/browse/TR'>Turkey</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/TM.png);'><a href='https://www.freecycle.org/browse/TM'>Turkmenistan</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/TC.png);'><a href='https://www.freecycle.org/browse/TC'>Turks and Caicos Islands</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/UG.png);'><a href='https://www.freecycle.org/browse/UG'>Uganda</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/UA.png);'><a href='https://www.freecycle.org/browse/UA'>Ukraine</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/AE.png);'><a href='https://www.freecycle.org/browse/AE'>United Arab Emirates</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/UK.png);'><a href='https://www.freecycle.org/browse/UK'>United Kingdom</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/US.png);'><a href='https://www.freecycle.org/browse/US'>United States</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/UY.png);'><a href='https://www.freecycle.org/browse/UY'>Uruguay</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/VE.png);'><a href='https://www.freecycle.org/browse/VE'>Venezuela</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/VN.png);'><a href='https://www.freecycle.org/browse/VN'>Vietnam</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/VI.png);'><a href='https://www.freecycle.org/browse/VI'>Virgin Islands (US)</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/ZM.png);'><a href='https://www.freecycle.org/browse/ZM'>Zambia</a></li>  <li style='list-style-image: url(//static.freecycle.org/images/flags/ZW.png);'><a href='https://www.freecycle.org/browse/ZW'>Zimbabwe</a></li> </ul></section> 
+<section>
+<!-- /1053204/newRightTower -->
+
+<div id='div-gpt-ad-8054603-1'></div>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-8054603-1'); });
+</script>
+
+
+</section>
+
+
+ </section>
+</div>
+</section>
+<div class='clearBoth'></div> <section id='group_search_box' class='boxCenter group_search_box vgap'>
+<header class="greenTab boxCenter search_box_tab"> find a group near you </header>
+
+<form method="post" action="/search" class='rounded orangeShadow'>
+	<input type="text" name="keywords" id='keywords' value="" max="24" />
+	<input type="submit" class='rounded' value="go" />  <br /> Results per page: <select name="resultsperpage">
+		<option value='10'>10</option>
+		<option value='25'>25</option>
+		<option value='50'>50</option>
+	</select>  </form>
+<label for='keywords' class="textCenter fullWidth">e.g. Tucson, Arizona</label>
+</section>  <section class='sag_box boxCenter'>
+<header class='greenTab boxCenter'>No local group?</header>
+<article class='rounded darkGreenBox lightGreenShadow textCenter'>
+  	<a href='http://startagroup.freecycle.org/'>Please click here if you are interested in applying to set one up, and become a moderator of one in your community</a>
+</article>
+</section>   <section id='social_media_buttons'>
+    <div style='margin:0px important!;padding:0px;">
+
+ <script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'i_default' }
+</script>
+
+<div class="g-follow" data-annotation="bubble" data-height="20" data-href="https://plus.google.com/105329491294406874354" data-rel="publisher"></div>
+
+ <a style="top:-1px;" href="https://twitter.com/freecycle" class="twitter-follow-button" data-show-count="false">Follow @freecycle</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+ <div style='display:inline-block; top:-2px;' class="fb-like" data-href="https://www.facebook.com/freecycle" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+    </div>
+</section>
+  <div style="display:block;width:650px;margin-left:auto;margin-right:auto; margin-top:0em; top:-1em;">
+
+ <div style="margin:10px;margin-top:0px;background-color:white;float:left;">
+    <!-- /1053204/newBottomLeft -->
+    <div id='div-gpt-ad-8054601-1' style='height:250px; width:300px;'>
+        <script type='text/javascript'>
+          googletag.cmd.push(function() { googletag.display('div-gpt-ad-8054601-1'); });
+        </script>
+    </div>
+
+ </div>
+ <div style="margin:10px;margin-top:0px;background-color:white;float:left;">
+    <!-- /1053204/newBottomRight -->
+   <div id='div-gpt-ad-8054602-1' style='height:250px; width:300px;'>
+        <script type='text/javascript'>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-8054602-1'); });
+        </script>
+    </div>
+ </div>
+</div>  <!-- end of whole bottom of page ad splacement -->
+
+    </section>
+
+<footer id="main_footer"> Copyright &copy;2019 The Freecycle Network (<a href="http://www.freecycle.org">http://www.freecycle.org</a>). All rights reserved. Freecycle and the Freecycle logo are trademarks of The Freecycle Network in various countries.  </footer>
+
+</body>
+</html>
+   

@@ -1,13 +1,12 @@
 {
-  "name": "freecycle-scraper",
+  "name": "freecycle-twitter-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Scrapes content from freecycle.org and broadcasts to Twitter.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "lint": "eslint . && echo 'linting complete'",
-    "lint:fix": "eslint . --fix",
-    "test": "echo \"ready to run tests\" && exit 0"
+    "test": "jest"
   },
   "author": "hughmp",
   "license": "ISC",
@@ -21,6 +20,8 @@
     "eslint": "^6.2.2",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.9.0",
+    "nock": "^11.3.2",
     "prettier": "^1.18.2"
   }
 }

@@ -1,0 +1,550 @@
+[
+  {
+    "label": "Albania",
+    "url": "https://www.freecycle.org/browse/AL"
+  },
+  {
+    "label": "ALGERIA",
+    "url": "https://www.freecycle.org/browse/DZ"
+  },
+  {
+    "label": "Andorra",
+    "url": "https://www.freecycle.org/browse/AD"
+  },
+  {
+    "label": "Anguilla",
+    "url": "https://www.freecycle.org/browse/AI"
+  },
+  {
+    "label": "Antigua and Barbuda",
+    "url": "https://www.freecycle.org/browse/AG"
+  },
+  {
+    "label": "Argentina",
+    "url": "https://www.freecycle.org/browse/AR"
+  },
+  {
+    "label": "Aruba",
+    "url": "https://www.freecycle.org/browse/AW"
+  },
+  {
+    "label": "Australia",
+    "url": "https://www.freecycle.org/browse/AU"
+  },
+  {
+    "label": "Austria",
+    "url": "https://www.freecycle.org/browse/AT"
+  },
+  {
+    "label": "Bahamas",
+    "url": "https://www.freecycle.org/browse/BS"
+  },
+  {
+    "label": "Bahrain",
+    "url": "https://www.freecycle.org/browse/BH"
+  },
+  {
+    "label": "Bangladesh",
+    "url": "https://www.freecycle.org/browse/BD"
+  },
+  {
+    "label": "Barbados",
+    "url": "https://www.freecycle.org/browse/BB"
+  },
+  {
+    "label": "Belgium",
+    "url": "https://www.freecycle.org/browse/BE"
+  },
+  {
+    "label": "BELIZE",
+    "url": "https://www.freecycle.org/browse/BZ"
+  },
+  {
+    "label": "Bermuda",
+    "url": "https://www.freecycle.org/browse/BM"
+  },
+  {
+    "label": "Bolivia",
+    "url": "https://www.freecycle.org/browse/BO"
+  },
+  {
+    "label": "Bosnia and Herzegovina",
+    "url": "https://www.freecycle.org/browse/BA"
+  },
+  {
+    "label": "Botswana",
+    "url": "https://www.freecycle.org/browse/BW"
+  },
+  {
+    "label": "Brazil",
+    "url": "https://www.freecycle.org/browse/BR"
+  },
+  {
+    "label": "British Virgin Islands",
+    "url": "https://www.freecycle.org/browse/VG"
+  },
+  {
+    "label": "Bulgaria",
+    "url": "https://www.freecycle.org/browse/BG"
+  },
+  {
+    "label": "Burkina Faso",
+    "url": "https://www.freecycle.org/browse/BF"
+  },
+  {
+    "label": "Cameroon",
+    "url": "https://www.freecycle.org/browse/CM"
+  },
+  {
+    "label": "Canada",
+    "url": "https://www.freecycle.org/browse/CA"
+  },
+  {
+    "label": "Cayman Islands",
+    "url": "https://www.freecycle.org/browse/KY"
+  },
+  {
+    "label": "Chile",
+    "url": "https://www.freecycle.org/browse/CL"
+  },
+  {
+    "label": "China",
+    "url": "https://www.freecycle.org/browse/CN"
+  },
+  {
+    "label": "Colombia",
+    "url": "https://www.freecycle.org/browse/CO"
+  },
+  {
+    "label": "Costa Rica",
+    "url": "https://www.freecycle.org/browse/CR"
+  },
+  {
+    "label": "CROATIA",
+    "url": "https://www.freecycle.org/browse/HR"
+  },
+  {
+    "label": "Cuba",
+    "url": "https://www.freecycle.org/browse/CU"
+  },
+  {
+    "label": "Cyprus",
+    "url": "https://www.freecycle.org/browse/CY"
+  },
+  {
+    "label": "Czech Republic",
+    "url": "https://www.freecycle.org/browse/CZ"
+  },
+  {
+    "label": "Denmark",
+    "url": "https://www.freecycle.org/browse/DK"
+  },
+  {
+    "label": "Dominica",
+    "url": "https://www.freecycle.org/browse/DM"
+  },
+  {
+    "label": "Dominican Republic",
+    "url": "https://www.freecycle.org/browse/DO"
+  },
+  {
+    "label": "Ecuador",
+    "url": "https://www.freecycle.org/browse/EC"
+  },
+  {
+    "label": "Egypt",
+    "url": "https://www.freecycle.org/browse/EG"
+  },
+  {
+    "label": "El Salvador",
+    "url": "https://www.freecycle.org/browse/SV"
+  },
+  {
+    "label": "Estonia",
+    "url": "https://www.freecycle.org/browse/EE"
+  },
+  {
+    "label": "ETHIOPIA",
+    "url": "https://www.freecycle.org/browse/ET"
+  },
+  {
+    "label": "Fiji",
+    "url": "https://www.freecycle.org/browse/FJ"
+  },
+  {
+    "label": "Finland",
+    "url": "https://www.freecycle.org/browse/FI"
+  },
+  {
+    "label": "France",
+    "url": "https://www.freecycle.org/browse/FR"
+  },
+  {
+    "label": "Georgia",
+    "url": "https://www.freecycle.org/browse/GE"
+  },
+  {
+    "label": "Germany",
+    "url": "https://www.freecycle.org/browse/DE"
+  },
+  {
+    "label": "Ghana",
+    "url": "https://www.freecycle.org/browse/GH"
+  },
+  {
+    "label": "Gibraltar",
+    "url": "https://www.freecycle.org/browse/GI"
+  },
+  {
+    "label": "Greece",
+    "url": "https://www.freecycle.org/browse/GR"
+  },
+  {
+    "label": "Grenada",
+    "url": "https://www.freecycle.org/browse/GD"
+  },
+  {
+    "label": "Guam",
+    "url": "https://www.freecycle.org/browse/GU"
+  },
+  {
+    "label": "Haiti",
+    "url": "https://www.freecycle.org/browse/HT"
+  },
+  {
+    "label": "HONDURAS",
+    "url": "https://www.freecycle.org/browse/HN"
+  },
+  {
+    "label": "Hungary",
+    "url": "https://www.freecycle.org/browse/HU"
+  },
+  {
+    "label": "Iceland",
+    "url": "https://www.freecycle.org/browse/IS"
+  },
+  {
+    "label": "India",
+    "url": "https://www.freecycle.org/browse/IN"
+  },
+  {
+    "label": "Indonesia",
+    "url": "https://www.freecycle.org/browse/ID"
+  },
+  {
+    "label": "Iran, Islamic Republic of",
+    "url": "https://www.freecycle.org/browse/IR"
+  },
+  {
+    "label": "Ireland",
+    "url": "https://www.freecycle.org/browse/IE"
+  },
+  {
+    "label": "Israel",
+    "url": "https://www.freecycle.org/browse/IL"
+  },
+  {
+    "label": "Italy",
+    "url": "https://www.freecycle.org/browse/IT"
+  },
+  {
+    "label": "Jamaica",
+    "url": "https://www.freecycle.org/browse/JM"
+  },
+  {
+    "label": "Japan",
+    "url": "https://www.freecycle.org/browse/JP"
+  },
+  {
+    "label": "KAZAKHSTAN",
+    "url": "https://www.freecycle.org/browse/KZ"
+  },
+  {
+    "label": "Kenya",
+    "url": "https://www.freecycle.org/browse/KE"
+  },
+  {
+    "label": "Korea, Republic of",
+    "url": "https://www.freecycle.org/browse/KR"
+  },
+  {
+    "label": "Kuwait",
+    "url": "https://www.freecycle.org/browse/KW"
+  },
+  {
+    "label": "Latvia",
+    "url": "https://www.freecycle.org/browse/LV"
+  },
+  {
+    "label": "Lebanon",
+    "url": "https://www.freecycle.org/browse/LB"
+  },
+  {
+    "label": "LIBERIA",
+    "url": "https://www.freecycle.org/browse/LR"
+  },
+  {
+    "label": "Lithuania",
+    "url": "https://www.freecycle.org/browse/LT"
+  },
+  {
+    "label": "LUXEMBOURG",
+    "url": "https://www.freecycle.org/browse/LU"
+  },
+  {
+    "label": "Malaysia",
+    "url": "https://www.freecycle.org/browse/MY"
+  },
+  {
+    "label": "Maldives",
+    "url": "https://www.freecycle.org/browse/MV"
+  },
+  {
+    "label": "Malta",
+    "url": "https://www.freecycle.org/browse/MT"
+  },
+  {
+    "label": "MAURITIUS",
+    "url": "https://www.freecycle.org/browse/MU"
+  },
+  {
+    "label": "Mexico",
+    "url": "https://www.freecycle.org/browse/MX"
+  },
+  {
+    "label": "Monserrat",
+    "url": "https://www.freecycle.org/browse/MS"
+  },
+  {
+    "label": "Morocco",
+    "url": "https://www.freecycle.org/browse/MA"
+  },
+  {
+    "label": "Namibia",
+    "url": "https://www.freecycle.org/browse/NA"
+  },
+  {
+    "label": "Nepal",
+    "url": "https://www.freecycle.org/browse/NP"
+  },
+  {
+    "label": "Netherlands",
+    "url": "https://www.freecycle.org/browse/NL"
+  },
+  {
+    "label": "Netherlands Antilles",
+    "url": "https://www.freecycle.org/browse/AN"
+  },
+  {
+    "label": "New Zealand",
+    "url": "https://www.freecycle.org/browse/NZ"
+  },
+  {
+    "label": "Nigeria",
+    "url": "https://www.freecycle.org/browse/NG"
+  },
+  {
+    "label": "Norway",
+    "url": "https://www.freecycle.org/browse/NO"
+  },
+  {
+    "label": "Oman",
+    "url": "https://www.freecycle.org/browse/OM"
+  },
+  {
+    "label": "Other",
+    "url": "https://www.freecycle.org/browse/ZZ"
+  },
+  {
+    "label": "Pakistan",
+    "url": "https://www.freecycle.org/browse/PK"
+  },
+  {
+    "label": "Palau",
+    "url": "https://www.freecycle.org/browse/PW"
+  },
+  {
+    "label": "Palestinian Authority",
+    "url": "https://www.freecycle.org/browse/PS"
+  },
+  {
+    "label": "Panama",
+    "url": "https://www.freecycle.org/browse/PA"
+  },
+  {
+    "label": "PARAGUAY",
+    "url": "https://www.freecycle.org/browse/PY"
+  },
+  {
+    "label": "Peru",
+    "url": "https://www.freecycle.org/browse/PE"
+  },
+  {
+    "label": "Philippines",
+    "url": "https://www.freecycle.org/browse/PH"
+  },
+  {
+    "label": "Poland",
+    "url": "https://www.freecycle.org/browse/PL"
+  },
+  {
+    "label": "Portugal",
+    "url": "https://www.freecycle.org/browse/PT"
+  },
+  {
+    "label": "Puerto Rico",
+    "url": "https://www.freecycle.org/browse/PR"
+  },
+  {
+    "label": "Qatar",
+    "url": "https://www.freecycle.org/browse/QA"
+  },
+  {
+    "label": "Republic of Moldova",
+    "url": "https://www.freecycle.org/browse/MD"
+  },
+  {
+    "label": "Romania",
+    "url": "https://www.freecycle.org/browse/RO"
+  },
+  {
+    "label": "Russian Federation",
+    "url": "https://www.freecycle.org/browse/RU"
+  },
+  {
+    "label": "Saint Lucia",
+    "url": "https://www.freecycle.org/browse/LC"
+  },
+  {
+    "label": "Saint Vincent and the Grenadines",
+    "url": "https://www.freecycle.org/browse/VC"
+  },
+  {
+    "label": "Saudi Arabia",
+    "url": "https://www.freecycle.org/browse/SA"
+  },
+  {
+    "label": "Serbia",
+    "url": "https://www.freecycle.org/browse/RS"
+  },
+  {
+    "label": "Singapore",
+    "url": "https://www.freecycle.org/browse/SG"
+  },
+  {
+    "label": "Slovakia",
+    "url": "https://www.freecycle.org/browse/SK"
+  },
+  {
+    "label": "Slovenia",
+    "url": "https://www.freecycle.org/browse/SI"
+  },
+  {
+    "label": "South Africa",
+    "url": "https://www.freecycle.org/browse/ZA"
+  },
+  {
+    "label": "Spain",
+    "url": "https://www.freecycle.org/browse/ES"
+  },
+  {
+    "label": "Sri Lanka",
+    "url": "https://www.freecycle.org/browse/LK"
+  },
+  {
+    "label": "St. Kitts and Nevis",
+    "url": "https://www.freecycle.org/browse/KN"
+  },
+  {
+    "label": "Sudan",
+    "url": "https://www.freecycle.org/browse/SD"
+  },
+  {
+    "label": "Sweden",
+    "url": "https://www.freecycle.org/browse/SE"
+  },
+  {
+    "label": "Switzerland",
+    "url": "https://www.freecycle.org/browse/CH"
+  },
+  {
+    "label": "Syria",
+    "url": "https://www.freecycle.org/browse/SY"
+  },
+  {
+    "label": "Taiwan",
+    "url": "https://www.freecycle.org/browse/TW"
+  },
+  {
+    "label": "Tanzania, United Republic of",
+    "url": "https://www.freecycle.org/browse/TZ"
+  },
+  {
+    "label": "Thailand",
+    "url": "https://www.freecycle.org/browse/TH"
+  },
+  {
+    "label": "Trinidad and Tobago",
+    "url": "https://www.freecycle.org/browse/TT"
+  },
+  {
+    "label": "Tunisia",
+    "url": "https://www.freecycle.org/browse/TN"
+  },
+  {
+    "label": "Turkey",
+    "url": "https://www.freecycle.org/browse/TR"
+  },
+  {
+    "label": "Turkmenistan",
+    "url": "https://www.freecycle.org/browse/TM"
+  },
+  {
+    "label": "Turks and Caicos Islands",
+    "url": "https://www.freecycle.org/browse/TC"
+  },
+  {
+    "label": "Uganda",
+    "url": "https://www.freecycle.org/browse/UG"
+  },
+  {
+    "label": "Ukraine",
+    "url": "https://www.freecycle.org/browse/UA"
+  },
+  {
+    "label": "United Arab Emirates",
+    "url": "https://www.freecycle.org/browse/AE"
+  },
+  {
+    "label": "United Kingdom",
+    "url": "https://www.freecycle.org/browse/UK"
+  },
+  {
+    "label": "United States",
+    "url": "https://www.freecycle.org/browse/US"
+  },
+  {
+    "label": "Uruguay",
+    "url": "https://www.freecycle.org/browse/UY"
+  },
+  {
+    "label": "Venezuela",
+    "url": "https://www.freecycle.org/browse/VE"
+  },
+  {
+    "label": "Vietnam",
+    "url": "https://www.freecycle.org/browse/VN"
+  },
+  {
+    "label": "Virgin Islands (US)",
+    "url": "https://www.freecycle.org/browse/VI"
+  },
+  {
+    "label": "Zambia",
+    "url": "https://www.freecycle.org/browse/ZM"
+  },
+  {
+    "label": "Zimbabwe",
+    "url": "https://www.freecycle.org/browse/ZW"
+  }
+]

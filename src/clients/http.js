@@ -8,7 +8,8 @@ async function requestPromise(url, options = {}, body) {
   return new Promise((resolve, reject) => {
     let data
     const req = httpLib.request(url, options, res => {
-      if (res.headers['content-type'].includes('image')) {
+      const contentTypes = res.headers['content-type']
+      if (contentTypes && contentTypes.includes('image')) {
         res.setEncoding('binary')
       }
       res.on('data', chunk => {

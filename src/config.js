@@ -31,4 +31,8 @@ const twitter = {
   }
 }
 
-module.exports = { postgres, twitter }
+const freecycle = {
+  countriesUrl: 'https://www.freecycle.org/browse?noautodetect=1'
+}
+
+module.exports = { postgres, twitter, freecycle }

@@ -1,8 +1,6 @@
 const cheerio = require('cheerio')
 const { get } = require('./http')
-
-const FREECYCLE_COUNTRIES_URL =
-  'https://www.freecycle.org/browse?noautodetect=1'
+const config = require('../config')
 
 async function getParsedHtml(url) {
   const text = await get(url)
@@ -22,7 +20,7 @@ function parseLinks(html, columnStartsWithText) {
 }
 
 async function getCountries() {
-  const html = await getParsedHtml(FREECYCLE_COUNTRIES_URL)
+  const html = await getParsedHtml(config.freecycle.countriesUrl)
   return parseLinks(html, 'country_column_')
 }
 
