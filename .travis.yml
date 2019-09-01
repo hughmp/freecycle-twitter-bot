@@ -7,3 +7,5 @@ jobs:
       script: npm run lint
     - stage: test
       script: npm t
+    - stage: coverage
+      script: npm run coverage

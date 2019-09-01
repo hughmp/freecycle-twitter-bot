@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "lint": "eslint . && echo 'linting complete'",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "codecov"
   },
   "author": "hughmp",
   "license": "ISC",
@@ -17,11 +18,16 @@
     "twit": "^2.2.11"
   },
   "devDependencies": {
+    "codecov": "^3.5.0",
     "eslint": "^6.2.2",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
     "jest": "^24.9.0",
     "nock": "^11.3.2",
     "prettier": "^1.18.2"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }

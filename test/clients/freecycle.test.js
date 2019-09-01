@@ -12,9 +12,11 @@ const countriesHtmlFixture = fs.readFileSync(
 )
 
 // nock configuration
-const countriesUrl = new URL(config.freecycle.countriesUrl)
-nock(`${countriesUrl.protocol}//${countriesUrl.host}`)
-  .get(countriesUrl.pathname + countriesUrl.search)
+const { protocol, host, pathname, search } = new URL(
+  config.freecycle.countriesUrl
+)
+nock(`${protocol}//${host}`)
+  .get(pathname + search)
   .reply(200, countriesHtmlFixture)
 
 // tests
